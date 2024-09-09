@@ -1,6 +1,22 @@
 # 🚀 Getting started with Strapi
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
+### `Chat Server`
+
+Start the Websocket server for testing in Postman
+
+```
+node chat-server.js
+```
+
+### `Authenticate`
+
+Additionally have added the register and login user endpoints in Authenticate.js file to be able to send axios request to create and login users to retrieve the jwt token for further authorization needs.
+
+```
+node authenticate.js
+```
+
 
 ### `develop`
 
